@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to relative URL templates</title>
+  </head>
+  <h1>Welcome to relative URL templates</h1>
+  <body>
+    <h1>
+      <p>
+    <a href="{% url 'gout_app:other' %}">The "other" page</a>
+    <br>
+    <a href="{% url 'admin:index' %}">Admin Index</a>
+    <br>
+    <a href="{% url 'index' %}">Link directly to index</a>
+      </p>
+  </h1>
+
+  </body>
+</html>
